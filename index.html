@@ -379,19 +379,19 @@ section{padding:clamp(80px,11vw,160px) 0 0}
 .calls{display:grid;grid-template-columns:1fr 1fr;gap:clamp(12px,1.6vw,20px);max-width:880px;margin:clamp(40px,6vw,72px) auto 0;text-align:left}
 .call{position:relative;display:flex;flex-direction:column;gap:clamp(18px,2.6vw,34px);padding:clamp(22px,2.6vw,34px);border-radius:28px;overflow:hidden;transition:transform .45s cubic-bezier(.7,0,.2,1)}
 .call:hover{transform:translateY(-6px)}
-.call-ae{background:#0D0D0D;color:#F4F1EA}
+.call-ae{background:linear-gradient(135deg,#F7CF6B 0%,#EDA93A 100%);color:#1E1608}
 .call-in{background:var(--accent);color:var(--on-accent)}
-.call-ae::after{content:"";position:absolute;right:-60px;top:-60px;width:180px;height:180px;border-radius:50%;border:1px solid rgba(244,241,234,.14)}
+.call-ae::after{content:"";position:absolute;right:-60px;top:-60px;width:180px;height:180px;border-radius:50%;border:1px solid rgba(30,22,8,.16)}
 .call-in::after{content:"";position:absolute;right:-40px;bottom:-70px;width:200px;height:200px;border-radius:50%;background:rgba(255,255,255,.12)}
 .call-top,.call-foot{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:1}
 .call-tag{display:inline-flex;align-items:center;gap:10px;font-size:14px;font-weight:600;padding:7px 14px;border-radius:999px;border:1px solid currentColor}
-.call-ae .call-tag{border-color:rgba(244,241,234,.3)}
+.call-ae .call-tag{border-color:rgba(30,22,8,.3)}
 .call-in .call-tag{border-color:rgba(255,255,255,.45)}
 .flag{display:block;width:20px;height:14px;border-radius:3px;overflow:hidden}
 .flag-ae{background:linear-gradient(90deg,#CE1126 0 26%,transparent 26%),linear-gradient(#00732F 0 33.3%,#fff 33.3% 66.6%,#000 66.6%)}
 .flag-in{background:radial-gradient(circle at 50% 50%,#06038D 0 16%,transparent 17%),linear-gradient(#FF9933 0 33.3%,#fff 33.3% 66.6%,#138808 66.6%)}
 .call-ic{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;transition:transform .5s cubic-bezier(.7,0,.2,1)}
-.call-ae .call-ic{background:#F4F1EA;color:#0D0D0D}
+.call-ae .call-ic{background:#1E1608;color:#F7CF6B}
 .call-in .call-ic{background:#fff;color:var(--accent)}
 .call-ic svg{width:20px;height:20px}
 .call:hover .call-ic{transform:rotate(-14deg) scale(1.08)}
